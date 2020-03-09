@@ -74,7 +74,7 @@ require('dotenv').config()
             console.log(">>", frame)
             console.log(">>", frame.remote64)
                 if(frame.data){
-                if(frame.remote64==='0013a2004198E557'){
+                if(frame.remote64==='0013a2004198e557'){
 	        	      var tagID = frame.data;
                   console.log(tagID);
                   console.log("Counter: ", counter);
